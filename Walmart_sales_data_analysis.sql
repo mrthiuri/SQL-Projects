@@ -312,7 +312,7 @@ Assessing the average sales over the 2 year period based on these six temperatur
 		temperature_level
 	;
     
--- Obtaing the temperature_level with the highest and lowest average sales
+-- Obtaining the temperature_level with the highest and lowest average sales
 SELECT
 		AVG(Weekly_Sales) AS Average_weekly_sales,
         temperature_level
